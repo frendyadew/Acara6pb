@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Acara6pb" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary color for app -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/blue_dark</item>
+        <item name="colorSecondary">@color/blue_light</item>
+
+        <!-- Button color overrides -->
+        <item name="colorButtonNormal">@color/blue</item>
+        <item name="buttonStyle">@style/Widget.Acara6pb.Button</item>
+    </style>
+
+    <!-- Main application theme -->
+    <style name="Theme.Acara6pb" parent="Base.Theme.Acara6pb" />
+
+    <!-- Custom button style to ensure custom background is used -->
+    <style name="Widget.Acara6pb.Button" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@null</item> <!-- Disable tint to use custom drawable -->
+    </style>
+</resources>
